@@ -8,7 +8,7 @@
 # Description: Build OpenWrt using GitHub Actions
 #
 ###############手动修改##############
-name: RAX3000M-eMMC_XR30-eMMC-hanwckf-24.10
+name: RAX3000M_XR30-eMMC-hanwckf-24.10
 
 on:
   repository_dispatch:
@@ -17,7 +17,7 @@ on:
       LAN_IP:
         description: 'Set LAN IP Address'
         required: true
-        default: '192.168.1.1'
+        default: '192.168.6.1'
       WIFI_DRIVER:
         description: 'Choose WiFi Driver'
         required: true
